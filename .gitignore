@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# dependencies
+wp-content/plugins/rankmath/rankmath-widget/node_modules
+wp-content/plugins/rankmath/rankmath-widget/.pnp
+.pnp.js
+
+# testing
+/wp-content/plugins/rankmath/rankmath-widget/coverage
+
+# production
+wp-content/plugins/rankmath/rankmath-widget/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+wp-content/plugins/rankmath/rankmath-widget/npm-debug.log*
+wp-content/plugins/rankmath/rankmath-widget/yarn-debug.log*
+wp-content/plugins/rankmath/rankmath-widget/yarn-error.log*

@@ -1,0 +1,23 @@
+
+.dashboardContainter {
+background-color: pink;
+    display: flex;
+    flex: 1;
+}
+
+.dashboardHead{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboardHeadItems{
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+    padding: 10px;
+}
+
+.graphContainer{
+    
+ 
+}
